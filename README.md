@@ -48,7 +48,7 @@ Este projeto utiliza a biblioteca de confete via CDN.
 Certifique-se de estar conectado à internet para que o efeito de confete funcione corretamente.
 ✨ Demonstração
 
-    [Gravação de tela de 2025-08-05 21-27-24.webm](https://github.com/user-attachments/assets/7d922c2c-6fa9-48f3-83c3-599c4e7de7d9)
+    https://github.com/user-attachments/assets/7d922c2c-6fa9-48f3-83c3-599c4e7de7d9
 
 📚 Aprendizados
 
