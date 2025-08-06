@@ -90,6 +90,8 @@ body {
 .button-container {
     width: 300px;
     justify-content: center;
+    display: flex;
+    gap: 10px;
 }
 
 /* Estilos de entrada de texto */
@@ -159,4 +161,39 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+#button-limpar:hover {
+    background-color: var(--color-button-hover);
+}
+
+input:invalid {
+    box-shadow: 0 0 8px 1px red;
+}
+
+input:focus:invalid {
+    box-shadow: none;
+}
+
+.name-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    color: #4B69FD;
+}
+
+.name-list li {
+    display: inline-block;
+    margin-right: 10px;
+    color: #000;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+#button-limpar img {
+    height: 29px;
+    width: 29px;
 }
